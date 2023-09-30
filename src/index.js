@@ -8,15 +8,6 @@ import movies from './reducers';
 
 const store = legacy_createStore(movies)
 console.log('store', store);
-// console.log('BEFORE STORE', store.getState());
-
-// store.dispatch({
-//   type : 'ADD_MOVIES',
-//   movies : [{name : 'Superman '}]
-// })
-
-// console.log('AFTER STORE', store.getState());
-
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
